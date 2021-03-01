@@ -76,6 +76,11 @@ networks:
          min_preim_deposit: 0.004
          max_votes: 100
          max_proposals: 100
+      staking:
+         min_nom_stake: 5
+         min_nom_amount: 5
+         max_nom_per_col: 10
+         max_col_per_nom: 8
    relay_chain:
       p2p: 30334
       rpc: 9934
